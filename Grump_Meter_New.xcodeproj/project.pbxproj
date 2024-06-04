@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		922CA6DE2B5F49B1000BB934 /* KGTenThousandReasons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922CA6DC2B5F49B1000BB934 /* KGTenThousandReasons.ttf */; };
+		922CA6DF2B5F49B1000BB934 /* KGTenThousandReasons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922CA6DC2B5F49B1000BB934 /* KGTenThousandReasons.ttf */; };
+		922CA6E02B5F49B1000BB934 /* KGTenThousandReasons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922CA6DC2B5F49B1000BB934 /* KGTenThousandReasons.ttf */; };
+		922CA6E12B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922CA6DD2B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf */; };
+		922CA6E22B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922CA6DD2B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf */; };
+		922CA6E32B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 922CA6DD2B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf */; };
+		922CA6E42B5F4A83000BB934 /* Grump-Meter-New-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92556EFE2B5F33F5008D7163 /* Grump-Meter-New-Info.plist */; };
+		922CA6E52B5F4A84000BB934 /* Grump-Meter-New-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92556EFE2B5F33F5008D7163 /* Grump-Meter-New-Info.plist */; };
+		922CA6E62B5F4A84000BB934 /* Grump-Meter-New-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92556EFE2B5F33F5008D7163 /* Grump-Meter-New-Info.plist */; };
+		922CD5062B9F6D4100E584DA /* DrawViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922CD5052B9F6D4100E584DA /* DrawViewNew.swift */; };
+		922CD5082B9F715700E584DA /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922CD5072B9F715700E584DA /* Line.swift */; };
+		922CD50B2B9F7FB100E584DA /* DrawViewCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922CD50A2B9F7FB100E584DA /* DrawViewCanvas.swift */; };
+		92556EFB2B5EFE15008D7163 /* IntroSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92556EFA2B5EFE15008D7163 /* IntroSlidesView.swift */; };
+		92556EFD2B5F2AAC008D7163 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92556EFC2B5F2AAC008D7163 /* DrawView.swift */; };
+		92556F002B5F34B9008D7163 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92556EFF2B5F34B9008D7163 /* Launch Screen.storyboard */; };
+		929AF2022B5EF2A4003CE362 /* Grump_Meter_NewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AF2012B5EF2A4003CE362 /* Grump_Meter_NewApp.swift */; };
+		929AF2042B5EF2A4003CE362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AF2032B5EF2A4003CE362 /* ContentView.swift */; };
+		929AF2062B5EF2A7003CE362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929AF2052B5EF2A7003CE362 /* Assets.xcassets */; };
+		929AF2092B5EF2A7003CE362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929AF2082B5EF2A7003CE362 /* Preview Assets.xcassets */; };
+		929AF2132B5EF2A7003CE362 /* Grump_Meter_NewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AF2122B5EF2A7003CE362 /* Grump_Meter_NewTests.swift */; };
+		929AF21D2B5EF2A7003CE362 /* Grump_Meter_NewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AF21C2B5EF2A7003CE362 /* Grump_Meter_NewUITests.swift */; };
+		929AF21F2B5EF2A7003CE362 /* Grump_Meter_NewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AF21E2B5EF2A7003CE362 /* Grump_Meter_NewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929AF20F2B5EF2A7003CE362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929AF1F62B5EF2A4003CE362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929AF1FD2B5EF2A4003CE362;
+			remoteInfo = Grump_Meter_New;
+		};
+		929AF2192B5EF2A7003CE362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929AF1F62B5EF2A4003CE362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929AF1FD2B5EF2A4003CE362;
+			remoteInfo = Grump_Meter_New;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		922CA6DC2B5F49B1000BB934 /* KGTenThousandReasons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGTenThousandReasons.ttf; sourceTree = "<group>"; };
+		922CA6DD2B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGTenThousandReasonsAlt.ttf; sourceTree = "<group>"; };
+		922CD5052B9F6D4100E584DA /* DrawViewNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewNew.swift; sourceTree = "<group>"; };
+		922CD5072B9F715700E584DA /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		922CD50A2B9F7FB100E584DA /* DrawViewCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewCanvas.swift; sourceTree = "<group>"; };
+		92556EFA2B5EFE15008D7163 /* IntroSlidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroSlidesView.swift; sourceTree = "<group>"; };
+		92556EFC2B5F2AAC008D7163 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		92556EFE2B5F33F5008D7163 /* Grump-Meter-New-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Grump-Meter-New-Info.plist"; sourceTree = SOURCE_ROOT; };
+		92556EFF2B5F34B9008D7163 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		929AF1FE2B5EF2A4003CE362 /* Grump_Meter_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grump_Meter_New.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929AF2012B5EF2A4003CE362 /* Grump_Meter_NewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grump_Meter_NewApp.swift; sourceTree = "<group>"; };
+		929AF2032B5EF2A4003CE362 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		929AF2052B5EF2A7003CE362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929AF2082B5EF2A7003CE362 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		929AF20E2B5EF2A7003CE362 /* Grump_Meter_NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Grump_Meter_NewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929AF2122B5EF2A7003CE362 /* Grump_Meter_NewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grump_Meter_NewTests.swift; sourceTree = "<group>"; };
+		929AF2182B5EF2A7003CE362 /* Grump_Meter_NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Grump_Meter_NewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929AF21C2B5EF2A7003CE362 /* Grump_Meter_NewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grump_Meter_NewUITests.swift; sourceTree = "<group>"; };
+		929AF21E2B5EF2A7003CE362 /* Grump_Meter_NewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grump_Meter_NewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929AF1FB2B5EF2A4003CE362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929AF20B2B5EF2A7003CE362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929AF2152B5EF2A7003CE362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		922CD5092B9F715E00E584DA /* DrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				92556EFC2B5F2AAC008D7163 /* DrawView.swift */,
+				922CD5052B9F6D4100E584DA /* DrawViewNew.swift */,
+				922CD5072B9F715700E584DA /* Line.swift */,
+				922CD50A2B9F7FB100E584DA /* DrawViewCanvas.swift */,
+			);
+			path = DrawingView;
+			sourceTree = "<group>";
+		};
+		92556F012B5F3880008D7163 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				922CA6DC2B5F49B1000BB934 /* KGTenThousandReasons.ttf */,
+				922CA6DD2B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		929AF1F52B5EF2A4003CE362 = {
+			isa = PBXGroup;
+			children = (
+				929AF2002B5EF2A4003CE362 /* Grump_Meter_New */,
+				929AF2112B5EF2A7003CE362 /* Grump_Meter_NewTests */,
+				929AF21B2B5EF2A7003CE362 /* Grump_Meter_NewUITests */,
+				929AF1FF2B5EF2A4003CE362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929AF1FF2B5EF2A4003CE362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929AF1FE2B5EF2A4003CE362 /* Grump_Meter_New.app */,
+				929AF20E2B5EF2A7003CE362 /* Grump_Meter_NewTests.xctest */,
+				929AF2182B5EF2A7003CE362 /* Grump_Meter_NewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929AF2002B5EF2A4003CE362 /* Grump_Meter_New */ = {
+			isa = PBXGroup;
+			children = (
+				922CD5092B9F715E00E584DA /* DrawingView */,
+				92556F012B5F3880008D7163 /* Fonts */,
+				92556EFE2B5F33F5008D7163 /* Grump-Meter-New-Info.plist */,
+				929AF2012B5EF2A4003CE362 /* Grump_Meter_NewApp.swift */,
+				929AF2032B5EF2A4003CE362 /* ContentView.swift */,
+				929AF2052B5EF2A7003CE362 /* Assets.xcassets */,
+				929AF2072B5EF2A7003CE362 /* Preview Content */,
+				92556EFA2B5EFE15008D7163 /* IntroSlidesView.swift */,
+				92556EFF2B5F34B9008D7163 /* Launch Screen.storyboard */,
+			);
+			path = Grump_Meter_New;
+			sourceTree = "<group>";
+		};
+		929AF2072B5EF2A7003CE362 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				929AF2082B5EF2A7003CE362 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		929AF2112B5EF2A7003CE362 /* Grump_Meter_NewTests */ = {
+			isa = PBXGroup;
+			children = (
+				929AF2122B5EF2A7003CE362 /* Grump_Meter_NewTests.swift */,
+			);
+			path = Grump_Meter_NewTests;
+			sourceTree = "<group>";
+		};
+		929AF21B2B5EF2A7003CE362 /* Grump_Meter_NewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				929AF21C2B5EF2A7003CE362 /* Grump_Meter_NewUITests.swift */,
+				929AF21E2B5EF2A7003CE362 /* Grump_Meter_NewUITestsLaunchTests.swift */,
+			);
+			path = Grump_Meter_NewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929AF1FD2B5EF2A4003CE362 /* Grump_Meter_New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929AF2222B5EF2A7003CE362 /* Build configuration list for PBXNativeTarget "Grump_Meter_New" */;
+			buildPhases = (
+				929AF1FA2B5EF2A4003CE362 /* Sources */,
+				929AF1FB2B5EF2A4003CE362 /* Frameworks */,
+				929AF1FC2B5EF2A4003CE362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grump_Meter_New;
+			productName = Grump_Meter_New;
+			productReference = 929AF1FE2B5EF2A4003CE362 /* Grump_Meter_New.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929AF20D2B5EF2A7003CE362 /* Grump_Meter_NewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929AF2252B5EF2A7003CE362 /* Build configuration list for PBXNativeTarget "Grump_Meter_NewTests" */;
+			buildPhases = (
+				929AF20A2B5EF2A7003CE362 /* Sources */,
+				929AF20B2B5EF2A7003CE362 /* Frameworks */,
+				929AF20C2B5EF2A7003CE362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929AF2102B5EF2A7003CE362 /* PBXTargetDependency */,
+			);
+			name = Grump_Meter_NewTests;
+			productName = Grump_Meter_NewTests;
+			productReference = 929AF20E2B5EF2A7003CE362 /* Grump_Meter_NewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		929AF2172B5EF2A7003CE362 /* Grump_Meter_NewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929AF2282B5EF2A7003CE362 /* Build configuration list for PBXNativeTarget "Grump_Meter_NewUITests" */;
+			buildPhases = (
+				929AF2142B5EF2A7003CE362 /* Sources */,
+				929AF2152B5EF2A7003CE362 /* Frameworks */,
+				929AF2162B5EF2A7003CE362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929AF21A2B5EF2A7003CE362 /* PBXTargetDependency */,
+			);
+			name = Grump_Meter_NewUITests;
+			productName = Grump_Meter_NewUITests;
+			productReference = 929AF2182B5EF2A7003CE362 /* Grump_Meter_NewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929AF1F62B5EF2A4003CE362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					929AF1FD2B5EF2A4003CE362 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					929AF20D2B5EF2A7003CE362 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 929AF1FD2B5EF2A4003CE362;
+					};
+					929AF2172B5EF2A7003CE362 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 929AF1FD2B5EF2A4003CE362;
+					};
+				};
+			};
+			buildConfigurationList = 929AF1F92B5EF2A4003CE362 /* Build configuration list for PBXProject "Grump_Meter_New" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929AF1F52B5EF2A4003CE362;
+			productRefGroup = 929AF1FF2B5EF2A4003CE362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929AF1FD2B5EF2A4003CE362 /* Grump_Meter_New */,
+				929AF20D2B5EF2A7003CE362 /* Grump_Meter_NewTests */,
+				929AF2172B5EF2A7003CE362 /* Grump_Meter_NewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929AF1FC2B5EF2A4003CE362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92556F002B5F34B9008D7163 /* Launch Screen.storyboard in Resources */,
+				929AF2092B5EF2A7003CE362 /* Preview Assets.xcassets in Resources */,
+				922CA6E12B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf in Resources */,
+				922CA6E42B5F4A83000BB934 /* Grump-Meter-New-Info.plist in Resources */,
+				922CA6DE2B5F49B1000BB934 /* KGTenThousandReasons.ttf in Resources */,
+				929AF2062B5EF2A7003CE362 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929AF20C2B5EF2A7003CE362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922CA6E52B5F4A84000BB934 /* Grump-Meter-New-Info.plist in Resources */,
+				922CA6E22B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf in Resources */,
+				922CA6DF2B5F49B1000BB934 /* KGTenThousandReasons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929AF2162B5EF2A7003CE362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922CA6E62B5F4A84000BB934 /* Grump-Meter-New-Info.plist in Resources */,
+				922CA6E32B5F49B1000BB934 /* KGTenThousandReasonsAlt.ttf in Resources */,
+				922CA6E02B5F49B1000BB934 /* KGTenThousandReasons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929AF1FA2B5EF2A4003CE362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92556EFB2B5EFE15008D7163 /* IntroSlidesView.swift in Sources */,
+				922CD5062B9F6D4100E584DA /* DrawViewNew.swift in Sources */,
+				929AF2042B5EF2A4003CE362 /* ContentView.swift in Sources */,
+				922CD5082B9F715700E584DA /* Line.swift in Sources */,
+				922CD50B2B9F7FB100E584DA /* DrawViewCanvas.swift in Sources */,
+				92556EFD2B5F2AAC008D7163 /* DrawView.swift in Sources */,
+				929AF2022B5EF2A4003CE362 /* Grump_Meter_NewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929AF20A2B5EF2A7003CE362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929AF2132B5EF2A7003CE362 /* Grump_Meter_NewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929AF2142B5EF2A7003CE362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929AF21D2B5EF2A7003CE362 /* Grump_Meter_NewUITests.swift in Sources */,
+				929AF21F2B5EF2A7003CE362 /* Grump_Meter_NewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929AF2102B5EF2A7003CE362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929AF1FD2B5EF2A4003CE362 /* Grump_Meter_New */;
+			targetProxy = 929AF20F2B5EF2A7003CE362 /* PBXContainerItemProxy */;
+		};
+		929AF21A2B5EF2A7003CE362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929AF1FD2B5EF2A4003CE362 /* Grump_Meter_New */;
+			targetProxy = 929AF2192B5EF2A7003CE362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		929AF2202B5EF2A7003CE362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		929AF2212B5EF2A7003CE362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929AF2232B5EF2A7003CE362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grump_Meter_New/Preview Content\"";
+				DEVELOPMENT_TEAM = AJQ3QMTMLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grump-Meter-New-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dpeppley.Grump-Meter-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		929AF2242B5EF2A7003CE362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grump_Meter_New/Preview Content\"";
+				DEVELOPMENT_TEAM = AJQ3QMTMLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grump-Meter-New-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dpeppley.Grump-Meter-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		929AF2262B5EF2A7003CE362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQ3QMTMLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dpeppley.Grump-Meter-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grump_Meter_New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grump_Meter_New";
+			};
+			name = Debug;
+		};
+		929AF2272B5EF2A7003CE362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQ3QMTMLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dpeppley.Grump-Meter-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grump_Meter_New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grump_Meter_New";
+			};
+			name = Release;
+		};
+		929AF2292B5EF2A7003CE362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQ3QMTMLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dpeppley.Grump-Meter-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grump_Meter_New;
+			};
+			name = Debug;
+		};
+		929AF22A2B5EF2A7003CE362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQ3QMTMLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dpeppley.Grump-Meter-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grump_Meter_New;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929AF1F92B5EF2A4003CE362 /* Build configuration list for PBXProject "Grump_Meter_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929AF2202B5EF2A7003CE362 /* Debug */,
+				929AF2212B5EF2A7003CE362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929AF2222B5EF2A7003CE362 /* Build configuration list for PBXNativeTarget "Grump_Meter_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929AF2232B5EF2A7003CE362 /* Debug */,
+				929AF2242B5EF2A7003CE362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929AF2252B5EF2A7003CE362 /* Build configuration list for PBXNativeTarget "Grump_Meter_NewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929AF2262B5EF2A7003CE362 /* Debug */,
+				929AF2272B5EF2A7003CE362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929AF2282B5EF2A7003CE362 /* Build configuration list for PBXNativeTarget "Grump_Meter_NewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929AF2292B5EF2A7003CE362 /* Debug */,
+				929AF22A2B5EF2A7003CE362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929AF1F62B5EF2A4003CE362 /* Project object */;
+}

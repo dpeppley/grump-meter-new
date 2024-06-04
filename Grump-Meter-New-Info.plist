@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Grump_Meter_New/Fonts/KGTenThousandReasons.ttf</string>
+		<string>Grump_Meter_New/Fonts/KGTenThousandReasonsAlt.ttf</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>LaunchImage</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
